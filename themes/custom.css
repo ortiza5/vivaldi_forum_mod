@@ -1076,12 +1076,15 @@ ul[component="chat/search/list"].dropdown-menu {
 }
 
 /* Composer */
-.composer .resizer .trigger i {
-  background-color: var(--colorHi);
-  border-color: var(--colorHi);
+.composer .resizer .trigger .bg-body {
+  background-color: var(--colorHi) !important;
+  border-color: var(--colorHi) !important;
   color: var(--colorBg);
 }
-.composer,
+.composer .resizer {
+  background: linear-gradient(transparent,var(--colorBg));
+}
+.composer.composer,
 .form-control,
 #search-form .form-control {
   background-color: var(--colorBg) !important;
@@ -1128,6 +1131,9 @@ div.preview.well a:focus {
 }
 .composer .title-container {
   border-color: var(--colorBgM);
+}
+.composer .composer-container {
+  --bs-border-color: var(--colorBgM);
 }
 
 /* Forms */
