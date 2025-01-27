@@ -159,22 +159,23 @@ li .notif-dropdown-link a:hover {
   color: var(--colorDdFg);
   opacity: 0.8;
 }
-.dropdown-menu a,
-.dropdown-menu a:hover,
-.dropdown-menu a:focus,
-.dropdown-menu > li > a,
-.dropdown-menu > li > a:focus,
-.dropdown-menu > li > a:hover,
-ul.dropdown-menu.dropdown-menu-right a,
-ul.dropdown-menu.dropdown-menu-right a:hover,
-ul.dropdown-menu.dropdown-menu-right a:focus {
+.dropdown-menu .dropdown-item,
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu > li > .dropdown-item,
+.dropdown-menu > li > .dropdown-item:focus,
+.dropdown-menu > li > .dropdown-item:hover,
+ul.dropdown-menu.dropdown-menu-right .dropdown-item,
+ul.dropdown-menu.dropdown-menu-right .dropdown-item:hover,
+ul.dropdown-menu.dropdown-menu-right .dropdown-item:focus {
   color: var(--colorDdFg) !important;
 }
-.dropdown-menu > li > a:focus,
-.dropdown-menu > li > a:hover,
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:focus,
-.dropdown-menu > .active > a:hover {
+.dropdown-menu > li > .dropdown-item:focus,
+.dropdown-menu > li > .dropdown-item:hover,
+.dropdown-menu > .active > .dropdown-item,
+.dropdown-menu > .active > .dropdown-item:focus,
+.dropdown-menu > .active > .dropdown-item:hover,
+.dropdown-menu > li > form > button:hover {
   background-color: var(--colorDdL);
 }
 .header .notification-list li:hover,
