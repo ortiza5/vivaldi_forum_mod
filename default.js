@@ -41,8 +41,7 @@ function userMenu() {
   if (dropdown) {
     const options = document.createElement("li");
     options.classList.add("optionsLink");
-    options.style = "cursor: pointer";
-    options.innerHTML = `<a><i class="fa fa-fw fa-dot-circle-o"></i><span> ${chrome.i18n.getMessage(
+    options.innerHTML = `<a class="dropdown-item" role="menuitem"><i class="fa fa-fw fa-dot-circle-o"></i><span> ${chrome.i18n.getMessage(
       "optionsLink"
     )} </span></a>`;
     dropdown.insertBefore(options, dropdown.childNodes[20]);
