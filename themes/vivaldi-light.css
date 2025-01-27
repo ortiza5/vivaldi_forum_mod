@@ -37,6 +37,9 @@ a#vlogo {
 #vlogo {
   fill: #4c70f0;
 }
+#menucontent {
+  border-bottom: unset;
+}
 
 /* Advanced formatting mod */
 .vivaldi-mod-modal-box {
