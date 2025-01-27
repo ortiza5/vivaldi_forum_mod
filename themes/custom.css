@@ -741,6 +741,28 @@ pre code {
 }
 
 /* Buttons */
+.btn,
+.btn[disabled],
+.btn.btn-outline-secondary {
+  color: var(--colorFg) !important;
+  background-color: var(--colorBg);
+  border-color: var(--colorBgM);
+}
+.btn.active,
+.btn.focus,
+.btn:active,
+.btn:focus,
+.btn:hover,
+.open > .dropdown-toggle.btn,
+.btn.btn-outline-secondary:hover {
+  background-color: var(--colorBgM) !important;
+  border-color: var(--colorBgM) !important;
+  color: var(--colorFg);
+}
+.btn.hidden-xs:hover,
+.btn.hidden-xs:focus {
+  background-color: var(--colorBgM);
+}
 .btn-primary,
 .btn-primary[disabled],
 .account .cover .indicator,
@@ -778,26 +800,6 @@ a.list-group-item:hover {
   background-color: var(--colorCo2);
   border-color: var(--colorCo2);
   color: var(--colorBg) !important;
-}
-.btn-default,
-.btn-default[disabled] {
-  color: var(--colorFg);
-  background-color: var(--colorBg);
-  border-color: var(--colorBgM);
-}
-.btn-default.active,
-.btn-default.focus,
-.btn-default:active,
-.btn-default:focus,
-.btn-default:hover,
-.open > .dropdown-toggle.btn-default {
-  background-color: var(--colorBgM);
-  border-color: var(--colorBgM) !important;
-  color: var(--colorFg);
-}
-.btn-default.hidden-xs:hover,
-.btn-default.hidden-xs:focus {
-  background-color: var(--colorBgM);
 }
 .btn-group.account-fab .fab,
 .taskbar .navbar-nav li.taskbar-composer a,
