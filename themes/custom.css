@@ -119,6 +119,7 @@ a#vlogo {
 }
 .vivaldi-nav-link {
   color: var(--colorAcFg) !important;
+  line-height: 54px;
 }
 .navbar-vivaldi a:focus,
 .navbar-vivaldi a:hover,
