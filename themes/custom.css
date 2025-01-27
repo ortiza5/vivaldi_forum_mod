@@ -287,9 +287,10 @@ ul.dropdown-menu.dropdown-menu-right .dropdown-item:focus {
 /* Text */
 .topic .posts > li .dropdown-menu a,
 .topic .posts > li .dropdown-menu a:hover,
+.topic .posts > li .post-footer .dropdown-menu a:hover,
 .topic .posts > li .post-footer a,
 .topic .posts > li .post-header a {
-  color: var(--colorFg);
+  color: var(--colorFg) !important;
 }
 .topic .posts > li .post-header a:hover,
 .topic .posts > li .post-signature a:hover,
@@ -784,7 +785,7 @@ a.list-group-item {
 .account .cover .save:hover,
 a.list-group-item:focus,
 a.list-group-item:hover {
-  background-color: var(--colorCo2);
+  background-color: var(--colorCo2) !important;
 }
 .btn-info,
 .btn-info.active,
@@ -914,7 +915,7 @@ a.btn-login:focus {
   color: var(--colorFg);
 }
 .text-danger {
-  color: var(--colorHi);
+  color: var(--colorHi) !important;
 }
 .text-warning {
   color: var(--colorCo);
@@ -1083,8 +1084,8 @@ ul[component="chat/search/list"].dropdown-menu {
 .composer,
 .form-control,
 #search-form .form-control {
-  background-color: var(--colorBg);
-  color: var(--colorFg);
+  background-color: var(--colorBg) !important;
+  color: var(--colorFg) !important;
 }
 .composer .formatting-bar .formatting-group li,
 .composer .draft-icon {
