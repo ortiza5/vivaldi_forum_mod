@@ -864,6 +864,7 @@ a.btn-login:focus {
 .alert-window .close {
   color: var(--colorFg);
   opacity: 0.4;
+  background-color: var(--colorBgM);
 }
 .alert-window .close:hover,
 .alert-window .close:focus {
@@ -945,6 +946,16 @@ a.btn-login:focus {
 .close:hover,
 .close:focus {
   color: var(--colorFg);
+  opacity: 0.9;
+}
+.btn-close {
+  background: var(--colorFg) !important;
+  opacity: 0.66;
+  mask: var(--bs-btn-close-bg) center / 1em auto no-repeat;
+}
+.btn-close:hover,
+.btn-close:focus {
+  background: var(--colorFg) !important;
   opacity: 0.9;
 }
 .chat-modal .chat-content li.chat-message[data-break="true"],
