@@ -333,7 +333,9 @@ html .topic .unanswered {
 }
 .posts-list .posts-list-item .topic-title,
 a,
-.breadcrumb a {
+.breadcrumb a,
+.nav-item a,
+.post-info.float-end a {
   color: var(--colorFg);
 }
 .category-children a,
