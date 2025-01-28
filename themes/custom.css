@@ -390,12 +390,17 @@ ul.nav.nav-pills a:focus {
   color: var(--colorFg);
   opacity: 0.66;
 }
-.category > ul > li:not(.unread) .card {
+.category > ul > li:not(.unread) .card,
+#results .card {
   border-color: var(--colorFg2) !important;
 }
 .categories > li .card,
 .category > ul > li .card {
   border-color: var(--colorFg);
+}
+#results .card {
+  background-color: var(--colorBg);
+  color: var(--colorFg);
 }
 li.active::before,
 .breadcrumb > li + li:before,
