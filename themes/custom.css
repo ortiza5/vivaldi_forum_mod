@@ -1,11 +1,4 @@
 /* Custom theme */
-:root {
-  --bs-body-color: var(--colorFg);
-  --bs-body-bg: var(--colorBg);
-  --bs-secondary-color: var(--colorFg2);
-  --bs-border-color: var(--colorBgL);
-}
-
 body {
   background-color: var(--colorBg) !important;
   color: var(--colorFg) !important;
